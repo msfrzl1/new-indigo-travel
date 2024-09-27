@@ -1,8 +1,12 @@
-import { LoginPage } from "../routes";
+import { SignInPage, SignUpPage } from "../routes";
 
 export const routeList = [
   {
-    path: "/login",
-    element: <LoginPage />,
+    path: "/sign-in",
+    element: <SignInPage />,
+  },
+  {
+    path: "/sign-up",
+    element: <SignUpPage />,
   },
 ];
