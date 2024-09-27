@@ -1,7 +1,7 @@
+import { useRoutes } from "react-router-dom";
+import { routeList } from "./routes/route";
+
 export default function App() {
-  return (
-    <>
-      <div>App</div>
-    </>
-  );
+  const element = useRoutes(routeList);
+  return element;
 }
