@@ -3,8 +3,8 @@ import AuthLayout from "../../components/Layouts/AuthLayout";
 
 export default function SignInPage() {
   return (
-    <AuthLayout>
-      <FormSignIn type={"login"} />
+    <AuthLayout type={"signIn"}>
+      <FormSignIn />
     </AuthLayout>
   );
 }
