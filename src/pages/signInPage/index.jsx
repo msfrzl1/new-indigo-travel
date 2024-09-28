@@ -1,7 +1,10 @@
+import FormSignIn from "../../components/Fragments/FormSignIn";
+import AuthLayout from "../../components/Layouts/AuthLayout";
+
 export default function SignInPage() {
   return (
-    <>
-      <div>Sign In</div>
-    </>
+    <AuthLayout>
+      <FormSignIn type={"login"} />
+    </AuthLayout>
   );
 }
