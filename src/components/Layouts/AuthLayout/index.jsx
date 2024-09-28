@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function AuthLayout({ type, children }) {
   return (
-    <div className="flex h-screen w-screen flex-col items-center justify-center">
+    <div className="flex h-screen w-screen flex-col items-center justify-center p-3">
       <div className="mx-auto flex w-full flex-col justify-center gap-4 sm:w-[350px]">
         <div className="flex flex-col text-center">
           {type === "signIn" ? (
